@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  beauty_shop: one
+  content: MyString
+  score: 1
+
+two:
+  user: two
+  beauty_shop: two
+  content: MyString
+  score: 1
