@@ -5,5 +5,6 @@ class BeautyShopsController < ApplicationController
 
   def show
     @beauty_shop = BeautyShop.find(params[:id])
+    @review = Review.new
   end
 end
