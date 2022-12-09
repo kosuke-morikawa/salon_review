@@ -13,7 +13,7 @@ class ReviewsController < ApplicationController
   end
 
   private
-  def
+  def review_params
     params.require(:review).permit(:beauty_shop_id, :score, :content)
   end
 end
