@@ -10,6 +10,7 @@ class ReviewsController < ApplicationController
     else
       @beauty_shop = BeautyShop.find(params[:beauty_shop_id])
       render "beauty_shops/show"
+    end
   end
 
   private
