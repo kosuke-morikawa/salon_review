@@ -1,5 +1,7 @@
 class ReviewsController < ApplicationController
   def index
+    @beauty_shop = BeautyShop.find(params[:beauty_shop_id])
+    @reviews = @beauty_shop.reviews
   end
 
   def create
